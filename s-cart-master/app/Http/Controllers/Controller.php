@@ -10,7 +10,7 @@ use Illuminate\Routing\Controller as BaseController;
 class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
-    public funtion index() {
-        echo "Hello wold"
+    public function index() {
+        echo "Hello wold";
     }
 }
