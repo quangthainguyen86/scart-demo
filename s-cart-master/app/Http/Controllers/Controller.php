@@ -11,6 +11,6 @@ class Controller extends BaseController
 {
     use AuthorizesRequests, DispatchesJobs, ValidatesRequests;
     public function index() {
-        echo "Hello Thai Quang";
+        echo "Hello Nguyen 1";
     }
 }
